@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "esnext", // Or your desired target
+        "module": "esnext",
+        "strict": true,
+        "esModuleInterop": true, // For interoperability between CommonJS and ES modules
+        "outDir": "./dist"
+    },
+    "include": ["src/**/*", "rollup.config.js"]
+}

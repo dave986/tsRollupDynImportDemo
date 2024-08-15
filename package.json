@@ -1,0 +1,18 @@
+{
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "rm dist/*.js; rollup -c",
+		"watch": "rm dist/*.js; rollup -c -w"
+	},
+	"devDependencies": {
+		"@rollup/plugin-json": "^6.1.0",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@types/node": "^22.2.0",
+		"rollup": "^4.20.0",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.4"
+	}
+}
